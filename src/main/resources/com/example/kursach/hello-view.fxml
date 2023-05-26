@@ -2,14 +2,15 @@
 
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.Controller">
    <children>
-      <AnchorPane layoutX="7.0" layoutY="94.0" prefHeight="295.0" prefWidth="586.0" style="-fx-background-color: #DCDCDC;">
+      <AnchorPane layoutX="7.0" layoutY="94.0" prefHeight="295.0" prefWidth="686.0" style="-fx-background-color: #DCDCDC;">
          <children>
             <TextField layoutX="18.0" layoutY="36.0" prefHeight="22.0" prefWidth="106.0" />
             <ChoiceBox fx:id="condChoiceBox1" layoutX="150.0" layoutY="36.0" prefHeight="22.0" prefWidth="98.0" />
@@ -23,17 +24,17 @@
                   <Font name="Arial" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="277.0" layoutY="14.0" text="Стан">
+            <Label layoutX="321.0" layoutY="14.0" text="Стан">
                <font>
                   <Font name="Arial" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="336.0" layoutY="14.0" text="Термін Аренди">
+            <Label layoutX="418.0" layoutY="14.0" text="Термін Аренди">
                <font>
                   <Font name="Arial" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="450.0" layoutY="14.0" text="Ціна">
+            <Label layoutX="575.0" layoutY="94.0" text="Ціна">
                <font>
                   <Font name="Arial" size="14.0" />
                </font>
@@ -54,11 +55,29 @@
             <ChoiceBox fx:id="condChoiceBox8" layoutX="150.0" layoutY="192.0" prefHeight="22.0" prefWidth="98.0" />
             <ChoiceBox fx:id="condChoiceBox9" layoutX="150.0" layoutY="214.0" prefHeight="22.0" prefWidth="98.0" />
             <TextField layoutX="18.0" layoutY="214.0" prefHeight="22.0" prefWidth="106.0" />
+            <ChoiceBox fx:id="fixChoiceBox1" layoutX="277.0" layoutY="36.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox2" layoutX="277.0" layoutY="58.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox3" layoutX="277.0" layoutY="80.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox4" layoutX="277.0" layoutY="102.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox5" layoutX="277.0" layoutY="124.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox6" layoutX="277.0" layoutY="146.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox7" layoutX="277.0" layoutY="168.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox8" layoutX="277.0" layoutY="192.0" prefHeight="22.0" prefWidth="121.0" />
+            <ChoiceBox fx:id="fixChoiceBox9" layoutX="277.0" layoutY="214.0" prefHeight="22.0" prefWidth="121.0" />
+            <DatePicker layoutX="418.0" layoutY="36.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="58.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="80.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="102.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="124.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="146.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="168.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="192.0" prefHeight="22.0" prefWidth="98.0" />
+            <DatePicker layoutX="418.0" layoutY="214.0" prefHeight="22.0" prefWidth="98.0" />
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="85.0" prefWidth="600.0" style="-fx-background-color: #DAA520;">
+      <AnchorPane prefHeight="85.0" prefWidth="700.0" style="-fx-background-color: #DAA520;">
          <children>
-            <Label layoutX="90.0" layoutY="13.0" text="Car Rent Admin Panel">
+            <Label layoutX="140.0" layoutY="13.0" text="Car Rent Admin Panel">
                <font>
                   <Font name="Impact" size="48.0" />
                </font>
