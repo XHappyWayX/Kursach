@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="630.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.Controller">
    <children>
-      <AnchorPane layoutX="7.0" layoutY="94.0" prefHeight="295.0" prefWidth="686.0" style="-fx-background-color: #DCDCDC;">
+      <AnchorPane layoutX="7.0" layoutY="94.0" prefHeight="246.0" prefWidth="615.0" style="-fx-background-color: #DCDCDC;">
          <children>
-            <TextField layoutX="18.0" layoutY="36.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="36.0" prefHeight="22.0" prefWidth="106.0" text="Ford Fusion" />
             <ChoiceBox fx:id="condChoiceBox1" layoutX="150.0" layoutY="36.0" prefHeight="22.0" prefWidth="98.0" />
             <Label layoutX="33.0" layoutY="14.0" text="Марка авто">
                <font>
@@ -34,19 +34,19 @@
                   <Font name="Arial" size="14.0" />
                </font>
             </Label>
-            <Label layoutX="575.0" layoutY="94.0" text="Ціна">
+            <Label layoutX="523.0" layoutY="14.0" text="Ціна за день">
                <font>
                   <Font name="Arial" size="14.0" />
                </font>
             </Label>
-            <TextField layoutX="18.0" layoutY="58.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="58.0" prefHeight="22.0" prefWidth="106.0" text="BMW X5M" />
             <ChoiceBox fx:id="condChoiceBox2" layoutX="150.0" layoutY="58.0" prefHeight="22.0" prefWidth="98.0" />
-            <TextField layoutX="18.0" layoutY="80.0" prefHeight="22.0" prefWidth="106.0" />
-            <TextField layoutX="18.0" layoutY="102.0" prefHeight="22.0" prefWidth="106.0" />
-            <TextField layoutX="18.0" layoutY="124.0" prefHeight="22.0" prefWidth="106.0" />
-            <TextField layoutX="18.0" layoutY="146.0" prefHeight="22.0" prefWidth="106.0" />
-            <TextField layoutX="18.0" layoutY="168.0" prefHeight="22.0" prefWidth="106.0" />
-            <TextField layoutX="18.0" layoutY="192.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="80.0" prefHeight="22.0" prefWidth="106.0" text="Renault Koleos" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="102.0" prefHeight="22.0" prefWidth="106.0" text="Mersedes W140" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="124.0" prefHeight="22.0" prefWidth="106.0" text="Citroen c3" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="146.0" prefHeight="22.0" prefWidth="106.0" text="Ford Focus" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="168.0" prefHeight="22.0" prefWidth="106.0" text="Renault Duster" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="192.0" prefHeight="22.0" prefWidth="106.0" text="Ford Mondeo" />
             <ChoiceBox fx:id="condChoiceBox3" layoutX="150.0" layoutY="80.0" prefHeight="22.0" prefWidth="98.0" />
             <ChoiceBox fx:id="condChoiceBox4" layoutX="150.0" layoutY="102.0" prefHeight="22.0" prefWidth="98.0" />
             <ChoiceBox fx:id="condChoiceBox5" layoutX="150.0" layoutY="124.0" prefHeight="22.0" prefWidth="98.0" />
@@ -54,7 +54,7 @@
             <ChoiceBox fx:id="condChoiceBox7" layoutX="150.0" layoutY="168.0" prefHeight="22.0" prefWidth="98.0" />
             <ChoiceBox fx:id="condChoiceBox8" layoutX="150.0" layoutY="192.0" prefHeight="22.0" prefWidth="98.0" />
             <ChoiceBox fx:id="condChoiceBox9" layoutX="150.0" layoutY="214.0" prefHeight="22.0" prefWidth="98.0" />
-            <TextField layoutX="18.0" layoutY="214.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField alignment="CENTER" layoutX="18.0" layoutY="214.0" prefHeight="22.0" prefWidth="106.0" text="Skoda Octavia" />
             <ChoiceBox fx:id="fixChoiceBox1" layoutX="277.0" layoutY="36.0" prefHeight="22.0" prefWidth="121.0" />
             <ChoiceBox fx:id="fixChoiceBox2" layoutX="277.0" layoutY="58.0" prefHeight="22.0" prefWidth="121.0" />
             <ChoiceBox fx:id="fixChoiceBox3" layoutX="277.0" layoutY="80.0" prefHeight="22.0" prefWidth="121.0" />
@@ -73,11 +73,20 @@
             <DatePicker layoutX="418.0" layoutY="168.0" prefHeight="22.0" prefWidth="98.0" />
             <DatePicker layoutX="418.0" layoutY="192.0" prefHeight="22.0" prefWidth="98.0" />
             <DatePicker layoutX="418.0" layoutY="214.0" prefHeight="22.0" prefWidth="98.0" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="36.0" prefHeight="22.0" prefWidth="67.0" text="10000" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="58.0" prefHeight="22.0" prefWidth="67.0" text="15000" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="80.0" prefHeight="22.0" prefWidth="67.0" text="8500" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="102.0" prefHeight="22.0" prefWidth="67.0" text="6500" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="124.0" prefHeight="22.0" prefWidth="67.0" text="7000" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="146.0" prefHeight="22.0" prefWidth="67.0" text="13900" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="168.0" prefHeight="22.0" prefWidth="67.0" text="4700" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="192.0" prefHeight="22.0" prefWidth="67.0" text="7300" />
+            <TextField alignment="CENTER" layoutX="530.0" layoutY="214.0" prefHeight="22.0" prefWidth="67.0" text="11300" />
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="85.0" prefWidth="700.0" style="-fx-background-color: #DAA520;">
+      <AnchorPane prefHeight="85.0" prefWidth="630.0" style="-fx-background-color: #DAA520;">
          <children>
-            <Label layoutX="140.0" layoutY="13.0" text="Car Rent Admin Panel">
+            <Label layoutX="105.0" layoutY="14.0" text="Car Rent Admin Panel">
                <font>
                   <Font name="Impact" size="48.0" />
                </font>
