@@ -1,16 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.kursach.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.Controller">
+   <children>
+      <AnchorPane layoutX="7.0" layoutY="94.0" prefHeight="295.0" prefWidth="586.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <TextField layoutX="18.0" layoutY="36.0" prefHeight="22.0" prefWidth="106.0" />
+            <ChoiceBox fx:id="condChoiceBox1" layoutX="150.0" layoutY="36.0" prefHeight="22.0" prefWidth="98.0" />
+            <Label layoutX="33.0" layoutY="14.0" text="Марка авто">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="135.0" layoutY="14.0" text="Вільне/Арендоване">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="277.0" layoutY="14.0" text="Стан">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="336.0" layoutY="14.0" text="Термін Аренди">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="450.0" layoutY="14.0" text="Ціна">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="18.0" layoutY="58.0" prefHeight="22.0" prefWidth="106.0" />
+            <ChoiceBox fx:id="condChoiceBox2" layoutX="150.0" layoutY="58.0" prefHeight="22.0" prefWidth="98.0" />
+            <TextField layoutX="18.0" layoutY="80.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField layoutX="18.0" layoutY="102.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField layoutX="18.0" layoutY="124.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField layoutX="18.0" layoutY="146.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField layoutX="18.0" layoutY="168.0" prefHeight="22.0" prefWidth="106.0" />
+            <TextField layoutX="18.0" layoutY="192.0" prefHeight="22.0" prefWidth="106.0" />
+            <ChoiceBox fx:id="condChoiceBox3" layoutX="150.0" layoutY="80.0" prefHeight="22.0" prefWidth="98.0" />
+            <ChoiceBox fx:id="condChoiceBox4" layoutX="150.0" layoutY="102.0" prefHeight="22.0" prefWidth="98.0" />
+            <ChoiceBox fx:id="condChoiceBox5" layoutX="150.0" layoutY="124.0" prefHeight="22.0" prefWidth="98.0" />
+            <ChoiceBox fx:id="condChoiceBox6" layoutX="150.0" layoutY="146.0" prefHeight="22.0" prefWidth="98.0" />
+            <ChoiceBox fx:id="condChoiceBox7" layoutX="150.0" layoutY="168.0" prefHeight="22.0" prefWidth="98.0" />
+            <ChoiceBox fx:id="condChoiceBox8" layoutX="150.0" layoutY="192.0" prefHeight="22.0" prefWidth="98.0" />
+            <ChoiceBox fx:id="condChoiceBox9" layoutX="150.0" layoutY="214.0" prefHeight="22.0" prefWidth="98.0" />
+            <TextField layoutX="18.0" layoutY="214.0" prefHeight="22.0" prefWidth="106.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="85.0" prefWidth="600.0" style="-fx-background-color: #DAA520;">
+         <children>
+            <Label layoutX="90.0" layoutY="13.0" text="Car Rent Admin Panel">
+               <font>
+                  <Font name="Impact" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
